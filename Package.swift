@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
   name: "CryptoSwift",
   platforms: [
-    .macOS(.v10_13), .macCatalyst(.v13), .iOS(.v11), .tvOS(.v11), .watchOS(.v4), .custom("visionos", versionString: "1.0")
+    .macOS(.v10_13), .macCatalyst(.v13), .iOS(.v12), .tvOS(.v11), .watchOS(.v4), .custom("visionos", versionString: "1.0")
   ],
   products: [
     .library(
